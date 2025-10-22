@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dose de Cuidado — Montes Claros</title>
+  <style>
+    :root{--verde:#2e8b57;--azul:#1e90ff;--bg:#f7fbff;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.45;margin:0;background:linear-gradient(180deg,var(--bg),#ffffff)}
+    header{background:linear-gradient(90deg,var(--verde),var(--azul));color:white;padding:28px 18px}
+    .container{max-width:980px;margin:18px auto;padding:0 18px}
+    header h1{margin:0;font-size:22px;letter-spacing:0.2px}
+    header p{margin:6px 0 0;opacity:.95}
+    nav{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
+    nav a{background:rgba(255,255,255,0.12);color:white;padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:600;font-size:13px}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center;margin-top:18px}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    .lead{font-size:15px;color:#0f172a}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+    .posto{padding:12px;border-radius:10px;border:1px solid #eef2f7}
+    .posto h4{margin:0 0 6px;font-size:16px}
+    .muted{color:var(--muted);font-size:14px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--azul);color:white}
+    .btn-outline{background:transparent;border:2px solid var(--verde);color:var(--verde)}
+    footer{margin:28px 0 60px;text-align:center;color:var(--muted);font-size:13px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    @media(min-width:880px){.hero{grid-template-columns:1fr 360px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Dose de Cuidado — Montes Claros</h1>
+      <p>Informações sobre imunização infantil, postos de vacinação e formulário para recolher opiniões da comunidade.</p>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#fontes">Fontes</a>
+        <a href="#postos">Postos de Saúde</a>
+        <a href="#questionario">Questionário</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="inicio" class="hero">
+      <div class="card">
+        <h2>Bem-vindo(a)</h2>
+        <p class="lead">Este é o hub oficial da campanha <strong>@dose_de_cuidado.32</strong>. Aqui reunimos fontes confiáveis sobre vacinas infantis, a lista de postos de Montes Claros e um formulário para ouvir pais e responsáveis. Compartilhe o link nas redes e ajude a aumentar a cobertura vacinal.</p>
+        <div style="margin-top:12px" class="row">
+          <a class="btn btn-primary" href="#questionario">Responder questionário</a>
+          <a class="btn btn-outline" href="https://www.instagram.com/dose_de_cuidado.32" target="_blank">Abrir Instagram</a>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h3>Resumo Rápido</h3>
+        <p class="muted">Objetivo: Recolher opiniões da comunidade sobre vacinas, tirar dúvidas e indicar onde vacinar. Região: Montes Claros - MG.</p>
+        <hr>
+        <h4>Questionário</h4>
+        <p class="muted">O questionário está em Google Forms — clique no botão abaixo para abrir.</p>
+        <a class="btn btn-primary" href="https://forms.gle/kmug9AgLk82Dn7Qo7" target="_blank">Abrir formulário (Google Forms)</a>
+      </aside>
+    </section>
+
+    <section id="fontes" style="margin-top:18px">
+      <div class="card">
+        <h3>Fontes das informações</h3>
+        <ul>
+          <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/v/vacinacao" target="_blank">Ministério da Saúde — vacinação infantil</a></li>
+          <li><a href="https://www.who.int/pt/health-topics/vaccines-and-immunization" target="_blank">Organização Mundial da Saúde (OMS) — vacinas e imunização</a></li>
+          <li><a href="https://portal.montesclaros.mg.gov.br/saude" target="_blank">Secretaria Municipal de Saúde de Montes Claros</a></li>
+          <li><a href="https://cnes.datasus.gov.br/" target="_blank">Cadastro Nacional de Estabelecimentos de Saúde (CNES)</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="postos" style="margin-top:18px">
+      <div class="card">
+        <h3>Postos de Saúde (seleção)</h3>
+        <p class="muted">Lista com alguns dos principais centros/UBS em Montes Claros (telefones e endereços). Verifique sempre por atualizações junto à prefeitura ou ligação prévia.</p>
+
+        <div class="grid">
+          <div class="posto">
+            <h4>Centro de Saúde Antônio Pimenta</h4>
+            <div class="muted">Rua Mailde Pereira Rocha — Bairro Antônio Pimenta</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3368</div>
+          </div>
+
+          <div class="posto">
+            <h4>Centro de Saúde Cintra</h4>
+            <div class="muted">Rua Monte Plano — Cintra</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3339</div>
+          </div>
+
+          <div class="posto">
+            <h4>Centro de Saúde Esplanada</h4>
+            <div class="muted">Rua Coronel Coelho — Esplanada</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3343</div>
+          </div>
+
+          <div class="posto">
+            <h4>Centro de Saúde Major Prates</h4>
+            <div class="muted">Avenida Olímpio Prates — Major Prates</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3346</div>
+          </div>
+
+          <div class="posto">
+            <h4>Centro de Saúde Maracanã</h4>
+            <div class="muted">Avenida Brasília — Maracanã</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3347</div>
+          </div>
+
+          <div class="posto">
+            <h4>UBS Planalto</h4>
+            <div class="muted">Rua Espírito Santo — Planalto</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3349</div>
+          </div>
+
+          <div class="posto">
+            <h4>UBS Renascença</h4>
+            <div class="muted">Avenida Bio Lopes — Renascença</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3352 / 3351</div>
+          </div>
+
+          <div class="posto">
+            <h4>UBS São Judas</h4>
+            <div class="muted">Rua Padre Vieira — São Judas</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-3359</div>
+          </div>
+
+          <div class="posto">
+            <h4>UBS Vera Cruz</h4>
+            <div class="muted">Rua Eulidson Novaes — Vera Cruz</div>
+            <div style="margin-top:8px"><strong>Tel:</strong> (38) 3229-1581</div>
+          </div>
+
+        </div>
+
+        <p class="muted" style="margin-top:12px">Fonte: listagens públicas e site da Secretaria Municipal de Montes Claros (ver links no rodapé).</p>
+      </div>
+    </section>
+
+    <section id="questionario" style="margin-top:18px">
+      <div class="card">
+        <h3>Questionário (Google Forms)</h3>
+        <p class="muted">Abrir o formulário para responder. As respostas ficarão no Google Forms. Link: <a href="https://forms.gle/kmug9AgLk82Dn7Qo7" target="_blank">forms.gle/kmug9AgLk82Dn7Qo7</a></p>
+
+        <div style="margin-top:12px">
+          <a class="btn btn-primary" href="https://forms.gle/kmug9AgLk82Dn7Qo7" target="_blank">Abrir o questionário</a>
+        </div>
+
+        <hr style="margin:14px 0">
+        <h4>Sobre o questionário</h4>
+        <p class="muted">Este formulário foi criado para recolher opniões de pais e responsáveis sobre vacinas infantis: facilitações para vacinar, dúvidas mais comuns e sugestões para campanhas locais.</p>
+      </div>
+    </section>
+
+    <section id="contato" style="margin-top:18px">
+      <div class="card">
+        <h3>Contato</h3>
+        <p class="muted">Para parcerias, divulgações ou atualizações de informações de postos, contate o Instagram oficial da campanha:</p>
+        <p style="margin-top:6px"><strong>@dose_de_cuidado.32</strong> — <a href="https://www.instagram.com/dose_de_cuidado.32" target="_blank">Abrir Instagram</a></p>
+        <p class="muted" style="margin-top:8px">Secretaria de Saúde de Montes Claros (central): <strong>(38) 2211-3000</strong></p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="muted">Criado para @dose_de_cuidado.32 — Dados dos postos consultados em fontes públicas da Prefeitura e bases de cadastro (CNES / listagens locais).</div>
+      <div style="margin-top:8px">Versão: 1.1 • Abra este arquivo num navegador para ver o site. Para publicar: hospede em GitHub Pages, Netlify ou no Canva Sites (exporte o HTML se precisar).</div>
+    </footer>
+  </main>
+
+  <script>
+    // Pequenas interações: rolagem suave
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});});
+    });
+  </script>
+</body>
+</html>
